@@ -1,0 +1,10 @@
+.time{
+    display: flex;
+    justify-content: center;
+    gap: 7px;
+}
+
+.time p {
+    padding: 0;
+    margin: 0;
+}

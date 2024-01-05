@@ -1,0 +1,38 @@
+.mens-cont{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20%;
+    gap:30px;
+}
+
+.mens-cont span {
+    width: 350px;
+    text-align: center;
+}
+
+.conteo img{
+    width: 350px;
+}
+
+.conteo .text-conteo{
+    font-size: 14px;
+    font-weight: 700;
+    position: absolute;
+    margin: -210px 75px;
+    text-align: center;
+    width: 200px;
+}
+
+.conteo .label-text {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    font-size: 10px;
+}
+
+.title-conteo{
+    font-size: 16px;
+}

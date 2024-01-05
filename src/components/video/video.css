@@ -1,0 +1,17 @@
+.zona-video{
+    min-height: 100vh;
+    background-color: antiquewhite;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.img{
+    position: absolute;
+    margin-top: 93vh;
+}
+
+.img img{
+    width: 100%;
+}
