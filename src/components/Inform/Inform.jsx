@@ -2,6 +2,7 @@ import React from 'react'
 import './inform.css'
 import inglesia from '../../assets/iglesia.webp'
 import copas from '../../assets/copas.png'
+import imgBack from '../../assets/AClogo.png'
 
 function Inform() {
   return (

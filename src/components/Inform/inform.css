@@ -1,6 +1,10 @@
 .information{
     width: 100%;
     display: flex;
+    background-image: url('../../assets/AClogo.png');
+    background-size: cover;
+    background-position: center;
+    margin-top: -10%;
 }
 
 .fila{
@@ -26,7 +30,7 @@
     background-color: #688568;
     /* margin-top: -15px; */
     transform: scale(1.15);
-    transition-duration: 300ms;
+    transition: all 500ms;
     filter: drop-shadow(1px 3px 0px black);
 }
 
