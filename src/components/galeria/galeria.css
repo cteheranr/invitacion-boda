@@ -1,17 +1,15 @@
-.content-galeria{
-    width: 100%;
+.content-colum{
+    box-sizing: border-box;
     background-color: #beccba;
+    padding: 80px 10px;
 }
-.galeria {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+.galeria-colum {
+    display: flex;
+    justify-content: center;
     gap: 10px;
-    max-width: 800px;
-    margin: 20px auto;
+    margin-top: 10px;
 }
 
-.galeria img {
-    width: 100%;
-    height: auto;
-    display: block;
+.galeria-colum img {
+    width: 30%;
 }

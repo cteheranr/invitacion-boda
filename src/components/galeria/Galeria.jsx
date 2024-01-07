@@ -1,17 +1,22 @@
 import React from 'react'
-import recurso2 from '../../assets/Recurso1.png'
+import foto1 from '../../assets/foto1.jpeg'
+import foto2 from '../../assets/foto2.jpeg'
+import foto3 from '../../assets/foto3.jpeg'
+import foto4 from '../../assets/foto4.jpeg'
+import foto5 from '../../assets/foto5.jpeg'
 import './galeria.css'
 
 function Galeria() {
     return (
-        <div className='content-galeria'>
-            <div className='galeria'>
-                <img src={recurso2} alt="" />
-                <img src={recurso2} alt="" />
-                <img src={recurso2} alt="" />
-                <img src={recurso2} alt="" />
-                <img src={recurso2} alt="" />
-                <img src={recurso2} alt="" />
+        <div className='content-colum'>
+            <div className='galeria-colum'>
+                <img src={foto1} alt="" />
+                <img src={foto2} alt="" />
+                <img src={foto3} alt="" />
+            </div>
+            <div className='galeria-colum'>
+                <img src={foto4} alt="" />
+                <img src={foto5} alt="" />
             </div>
         </div>
     )
