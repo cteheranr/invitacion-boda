@@ -4,7 +4,7 @@
 
 .container-info .img{
     position: absolute;
-    margin-top: 60px;
+    margin-top: 7vh;
     width: 80%;
     left: 10%;
 }
@@ -31,7 +31,7 @@
 .fila button {
     padding: 10px 20px;
     border: none;
-    background-color: #beccba;
+    background-color: var(--color-5);
     border-radius: 30px;
     color: #ffff;
     cursor: pointer;
@@ -43,6 +43,10 @@
     transform: scale(1.15);
     transition: all 500ms;
     filter: drop-shadow(1px 3px 0px black);
+}
+
+.fila h4, h3{
+    margin: 20px;
 }
 
 .info-p p{
@@ -57,4 +61,28 @@
 
 h4, button{
     font-family: 'Kanit', sans-serif;
+}
+
+@media (500px <= width <= 650px) {
+    .container-info .img{
+        margin-top: 5vh;
+    }
+}
+
+@media (650px <= width <= 900px) {
+    .container-info .img{
+        margin-top: 3vh;
+    }
+}
+
+@media (900px <= width <= 1400px) {
+    .container-info .img{
+        margin-top: 0vh;
+    }
+}
+
+@media (1400px <= width) {
+    .container-info .img{
+        margin-top: -3vh;
+    }
 }

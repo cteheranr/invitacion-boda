@@ -1,0 +1,64 @@
+.nuestraBoda{
+    padding-bottom: 40px;
+}
+.div-wave{
+    width: 100%;
+    position: absolute;
+    margin-top: -20%;
+}
+
+.div-frase{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+    gap: 30px;
+}
+
+.div-frase p{
+    width: 300px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.versiculo span{
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.div-wave2 {
+    width: 100%;
+}
+
+.cards-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+
+.card{
+    width: 350px;
+    background-color: var(--color-2);
+    border-radius: 10px;
+    box-shadow: 0 1px 3px 1px #0003;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 25px 0;
+}
+
+.info-dress{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.card p{
+    font-family: 'Kanit', sans-serif;
+    font-weight: 200;
+}

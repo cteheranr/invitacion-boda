@@ -3,11 +3,16 @@
 
 :root {
   --background-color: #f6f6f5;
-
+  --color-2: #E1E6DF;
+  --color-3: #D3DCD1;
+  --color-4: #CCD7C9;
+  --color-5: #beccba;
 }
 
 *{
-  font-family: 'Dancing Script', cursive;;
+  font-family: 'Dancing Script', cursive;
+  margin: 0;
+  padding: 0;
 }
 
 #root{

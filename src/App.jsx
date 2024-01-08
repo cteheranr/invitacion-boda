@@ -5,6 +5,7 @@ import Conteo from './components/conteo/Conteo'
 import photo1 from './assets/photo1.png'
 import Inform from './components/Inform/Inform'
 import Galeria from './components/galeria/Galeria'
+import NuestraBoda from './components/nuestraBoda/NuestraBoda'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -18,6 +19,7 @@ function App() {
       </div>
       <Inform/>
       <Galeria/>
+      <NuestraBoda/>
     </>
   )
 }

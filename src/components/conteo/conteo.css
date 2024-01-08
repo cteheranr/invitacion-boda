@@ -24,6 +24,9 @@
     margin: -210px 75px;
     text-align: center;
     width: 200px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
 }
 
 .conteo .label-text {
