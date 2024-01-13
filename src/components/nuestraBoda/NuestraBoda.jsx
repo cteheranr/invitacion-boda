@@ -1,8 +1,9 @@
 import React from 'react'
 import wave from '../../assets/wave.svg'
-import wave2 from '../../assets/wave2.png'
+import sobre from '../../assets/sobre.png'
 import dessCode from '../../assets/dress-code.png'
 import './NuestraBoda.css'
+
 
 function NuestraBoda() {
     return (
@@ -42,7 +43,7 @@ function NuestraBoda() {
                 </div>
                 <div className="card">
                 <h1 className='title-card'>Regalos</h1>
-                    <img src={dessCode} alt="" />
+                    <img className='sobre' src={sobre} alt="" />
                     <div className='info-dress'>
                         <p>Quiero que sepas que nuestro <br/>principal regalo es tu presencia <br/>en este día tan especial.</p>
                     </div>

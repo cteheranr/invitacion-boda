@@ -1,17 +1,7 @@
-.content-colum{
-    box-sizing: border-box;
+.content-column {
+    /* box-sizing: border-box; */
     background-color: var(--color-5);
     padding: 25% 10px 15%;
-}
-.galeria-colum {
-    display: flex;
-    justify-content: center;
-    gap: 10px;
-    margin-top: 10px;
-}
-
-.galeria-colum img {
-    width: 30%;
 }
 
 .content-colum h3{
@@ -20,4 +10,25 @@
     font-size: 22px;
     margin: 0;
     padding-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    align-items: start;
+}
+
+.gallery img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.title-church{
+    font-size: 40px;
+    text-align: center;
 }

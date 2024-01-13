@@ -9,14 +9,14 @@
   --color-5: #beccba;
 }
 
-*{
+* {
   font-family: 'Dancing Script', cursive;
   margin: 0;
   padding: 0;
 }
 
-#root{
-  width: 100vw;
+#root {
+  width: 100%;
 }
 
 body {
@@ -28,6 +28,19 @@ body {
   min-width: 320px;
   min-height: 100vh;
   box-sizing: border-box;
+  flex-direction: column;
 }
 
 
+footer {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+
+footer p, a{
+  text-align: center;
+  font-size: 13px;
+  font-family: 'Kanit', sans-serif;
+  font-weight: 200;
+}

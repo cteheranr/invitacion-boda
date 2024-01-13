@@ -35,13 +35,12 @@
     border-radius: 30px;
     color: #ffff;
     cursor: pointer;
+    transition: all 500ms;
 }
 
 .fila button:hover {
     background-color: #688568;
-    /* margin-top: -15px; */
     transform: scale(1.15);
-    transition: all 500ms;
     filter: drop-shadow(1px 3px 0px black);
 }
 

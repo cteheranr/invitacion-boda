@@ -9,17 +9,15 @@ import './galeria.css'
 function Galeria() {
     return (
         <>
-            <div className='content-colum'>
+            <div className='content-column'>
             <h3 className='title-church'>Galeria</h3>
-                <div className='galeria-colum'>
+            <div className='gallery'>
                     <img src={foto1} alt="" />
                     <img src={foto2} alt="" />
                     <img src={foto3} alt="" />
-                </div>
-                <div className='galeria-colum'>
                     <img src={foto4} alt="" />
                     <img src={foto5} alt="" />
-                </div>
+                    </div>
             </div>
         </>
     )

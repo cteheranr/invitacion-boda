@@ -40,14 +40,15 @@
 }
 
 .card{
-    width: 350px;
+    width: 320px;
+    height: 446px;
     background-color: var(--color-2);
     border-radius: 10px;
     box-shadow: 0 1px 3px 1px #0003;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    justify-content: space-around;
     padding: 25px 0;
 }
 
@@ -61,4 +62,17 @@
 .card p{
     font-family: 'Kanit', sans-serif;
     font-weight: 200;
+}
+
+.card .sobre{
+    width: 140px;
+    box-shadow: 4px 4px 6px 1px #0003;
+}
+
+@media (width > 750px) {
+    .cards-content{
+        flex-direction: row;
+        gap: 30px;
+        margin-top: 40px;
+    }
 }

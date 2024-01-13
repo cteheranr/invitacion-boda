@@ -1,0 +1,26 @@
+.confirma{
+    background-color: var(--color-5);
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.confirma button{
+    padding: 15px;
+    border-radius: 25px;
+    border: none;
+    background: var(--background-color);
+    box-shadow: 0 1px 3px 1px #0003;
+    transition: all 500ms;
+    cursor: pointer;
+}
+
+.confirma button:hover{
+    background-color: #688568;
+    transform: scale(1.15);
+    filter: drop-shadow(1px 3px 0px black);
+    color: #ffffff;
+}
