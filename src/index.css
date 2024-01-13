@@ -36,6 +36,8 @@ footer {
   display: flex;
   flex-direction: column;
   padding: 20px;
+  background: var(--color-5);
+  width: calc(100% - 40px);
 }
 
 footer p, a{
@@ -43,4 +45,5 @@ footer p, a{
   font-size: 13px;
   font-family: 'Kanit', sans-serif;
   font-weight: 200;
+  color: #ffffff;
 }

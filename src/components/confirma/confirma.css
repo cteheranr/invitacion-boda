@@ -1,20 +1,21 @@
 .confirma{
-    background-color: var(--color-5);
+    background: var(--background-color);
     padding: 30px;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    gap: 30px;
+    gap: 0px;
 }
 
 .confirma button{
     padding: 15px;
     border-radius: 25px;
     border: none;
-    background: var(--background-color);
     box-shadow: 0 1px 3px 1px #0003;
     transition: all 500ms;
+    background: var(--color-5);
+    color: #ffffff;
     cursor: pointer;
 }
 
@@ -22,5 +23,4 @@
     background-color: #688568;
     transform: scale(1.15);
     filter: drop-shadow(1px 3px 0px black);
-    color: #ffffff;
 }
