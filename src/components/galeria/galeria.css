@@ -4,7 +4,7 @@
     padding: 25% 10px 15%;
 }
 
-.content-colum h3{
+.content-colum h3 {
     width: 100%;
     text-align: center;
     font-size: 22px;
@@ -16,19 +16,50 @@
 
 .gallery {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 10px;
-    align-items: start;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(9, 1fr);
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
 }
 
-.gallery img {
+/* .gallery img {
     width: 100%;
     height: auto;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-}
+} */
 
-.title-church{
+.title-church {
     font-size: 40px;
     text-align: center;
+}
+
+.img1 {
+    grid-area: 1 / 1 / 7 / 4;
+}
+
+.img2 {
+    grid-area: 1 / 4 / 4 / 7;
+}
+
+.img3 {
+    grid-area: 4 / 4 / 7 / 7;
+}
+
+.img4 {
+    grid-area: 7 / 1 / 10 / 3;
+}
+
+.img5 {
+    grid-area: 7 / 3 / 10 / 5;
+}
+
+.img6 {
+    grid-area: 7 / 5 / 10 / 7;
+}
+
+.gallery img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
