@@ -7,10 +7,10 @@ function Video() {
   return (
     <div className='zona-video'>
       <video controls playsInline>
-        <source src={video} type="video/mp4" />
+        <source src={video} type="video/mp4" loading="lazy" />
       </video>
       <div className='img'>
-        <img src={arregloFloral2} alt="" />
+        <img src={arregloFloral2} alt="" loading="lazy" />
       </div>
     </div>
 

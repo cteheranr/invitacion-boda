@@ -11,7 +11,7 @@ function Inform() {
                 <div className='fila'>
                     <h3 className='title-church'>Ceremonia</h3>
                     <div>
-                        <img src={inglesia} alt="" />
+                        <img src={inglesia} alt="" loading="lazy" />
                     </div>
                     <div className='info-p'>
                         <p>Parroquia Nuestra Señora de la Consolata</p>
@@ -26,7 +26,7 @@ function Inform() {
                 <div className='fila'>
                     <h3 className='title-church'>Recepción</h3>
                     <div>
-                        <img src={copas} alt="" />
+                        <img src={copas} alt="" loading="lazy" />
                     </div>
                     <div className='info-p'>
                         <p>Salon Inolvidables Eventos</p>
@@ -39,7 +39,7 @@ function Inform() {
                 </div>
             </div>
             <div className='img'>
-                <img src={arregloFloral1} alt="" />
+                <img src={arregloFloral1} alt="" loading="lazy" />
             </div>
         </div>
     )

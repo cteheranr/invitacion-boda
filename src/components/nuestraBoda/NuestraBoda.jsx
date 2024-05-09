@@ -27,7 +27,7 @@ function NuestraBoda() {
             <div className='cards-content'>
                 <div className="card">
                     <h1 className='title-card'>Dress Code </h1>
-                    <img src={dessCode} alt="" />
+                    <img src={dessCode} alt="" loading="lazy" />
                     <div className='info-dress'>
                         <div>
                             <h3>Mujeres</h3>
@@ -43,7 +43,7 @@ function NuestraBoda() {
                 </div>
                 <div className="card">
                     <h1 className='title-card'>Regalos</h1>
-                    <img className='sobre' src={sobre} alt="" />
+                    <img className='sobre' src={sobre} alt="" loading="lazy" />
                     <div className='info-dress'>
                         <p>Quiero que sepas que nuestro <br />principal regalo es tu presencia <br />en este día tan especial.</p>
                     </div>

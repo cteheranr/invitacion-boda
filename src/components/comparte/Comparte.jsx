@@ -6,7 +6,7 @@ function Comparte() {
   return (
     <div className='compartenos'>
       <h1>Comparte las fotos de la boda</h1>
-      <img src={instagram} alt="" />
+      <img src={instagram} alt="" loading="lazy" />
       <h1 className='normal'>#BodaA&C</h1>
     </div>
   )

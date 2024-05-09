@@ -14,22 +14,22 @@ function Galeria() {
                 <h3 className='title-church'>Galeria</h3>
                 <div className='gallery'>
                     <div className="img1">
-                        <img src={foto1} alt="" />
+                        <img src={foto1} alt="" loading="lazy" />
                     </div>
                     <div className="img2">
-                        <img src={foto2} alt="" />
+                        <img src={foto2} alt="" loading="lazy" />
                     </div>
                     <div className="img3">
-                        <img src={foto3} alt="" />
+                        <img src={foto3} alt="" loading="lazy" />
                     </div>
                     <div className="img4">
-                        <img src={foto4} alt="" />
+                        <img src={foto4} alt="" loading="lazy" />
                     </div>
                     <div className="img5">
-                        <img src={foto5} alt="" />
+                        <img src={foto5} alt="" loading="lazy" />
                     </div>
                     <div className="img6">
-                        <img src={foto6} alt="" />
+                        <img src={foto6} alt="" loading="lazy" />
                     </div>
                 </div>
             </div>
