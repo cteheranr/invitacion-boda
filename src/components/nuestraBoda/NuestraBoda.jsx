@@ -26,7 +26,7 @@ function NuestraBoda() {
             {/* <img className="div-wave2" src={wave2} alt="" /> */}
             <div className='cards-content'>
                 <div className="card">
-                    <h1 className='title-card'>Dress Code</h1>
+                    <h1 className='title-card'>Dress Code </h1>
                     <img src={dessCode} alt="" />
                     <div className='info-dress'>
                         <div>
@@ -42,10 +42,10 @@ function NuestraBoda() {
                     <p>Blanco, Verde</p>
                 </div>
                 <div className="card">
-                <h1 className='title-card'>Regalos</h1>
+                    <h1 className='title-card'>Regalos</h1>
                     <img className='sobre' src={sobre} alt="" />
                     <div className='info-dress'>
-                        <p>Quiero que sepas que nuestro <br/>principal regalo es tu presencia <br/>en este día tan especial.</p>
+                        <p>Quiero que sepas que nuestro <br />principal regalo es tu presencia <br />en este día tan especial.</p>
                     </div>
                     <h2>Lluvia de sobres</h2>
                 </div>

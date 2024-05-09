@@ -29,11 +29,11 @@ function Inform() {
                         <img src={copas} alt="" />
                     </div>
                     <div className='info-p'>
-                        <p>Salon Veleros Eventos</p>
+                        <p>Salon Inolvidables Eventos</p>
                         <p>Cartagena - Colombia</p>
                     </div>
                     <h4>7:00 PM</h4>
-                    <a href="https://maps.app.goo.gl/aNT5RoYSFCVRXzME9" target="_blank">
+                    <a href="https://maps.app.goo.gl/NFVRAjE9uKaL7XS76" target="_blank">
                         <button>CÓMO LLEGAR</button>
                     </a>
                 </div>
