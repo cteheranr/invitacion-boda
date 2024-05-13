@@ -1,12 +1,8 @@
 .zona-video {
-    /* min-height: max-content; */
     background-color: antiquewhite;
     display: flex;
     align-items: center;
     justify-content: center;
-    flex-direction: column;
-    margin: 0 auto;
-    position: relative;
 }
 
 .zona-video .img {
@@ -20,7 +16,6 @@
 
 video {
     max-width: 100%;
-    height: max-content;
 }
 
 @media (700px <=width <=820px) {
