@@ -6,11 +6,12 @@
     justify-content: center;
     flex-direction: column;
     margin: 0 auto;
+    position: relative;
 }
 
 .zona-video .img {
     position: absolute;
-    margin-top: 93vh;
+    margin-top: 70%;
 }
 
 .img img {
@@ -20,5 +21,97 @@
 video {
     max-width: 100%;
     height: max-content;
-    /* asegura que el video no sea más ancho que su contenedor */
+}
+
+@media (700px <=width <=820px) {
+    .zona-video .img {
+        margin-top: 100%;
+    }
+}
+
+@media (821px <=width <=930px) {
+    .zona-video .img {
+        margin-top: 90%;
+    }
+}
+
+@media (931px <=width <=1040px) {
+    .zona-video .img {
+        margin-top: 80%;
+    }
+}
+
+
+@media (1041px <=width <=1150px) {
+    .zona-video .img {
+        margin-top: 70%;
+    }
+}
+
+@media (width > 1220px) {
+    .zona-video .img {
+        margin-top: 60%;
+    }
+}
+
+@media (width > 800px) {
+    .img img {
+        width: 80%;
+        margin-left: 10%;
+    }
+}
+
+@media (width < 800px) {
+    .zona-video .img {
+        margin-top: 100%;
+    }
+}
+
+
+@media (width < 710px) {
+    .zona-video .img {
+        margin-top: 110%;
+    }
+}
+
+@media (width < 640px) {
+    .zona-video .img {
+        margin-top: 120%;
+    }
+}
+
+@media (width < 600px) {
+    .zona-video .img {
+        margin-top: 130%;
+    }
+}
+
+@media (width < 560px) {
+    .zona-video .img {
+        margin-top: 140%;
+    }
+}
+
+@media (width <=530px) {
+    .zona-video .img {
+        margin-top: 150%;
+    }
+}
+
+@media (width <=500px) {
+    .zona-video .img {
+        margin-top: 160%;
+    }
+}
+
+@media (width <=400px) {
+    .zona-video .img {
+        margin-top: 160%;
+    }
+}
+
+@media (width <=370px) {
+    .zona-video .img {
+        margin-top: 60vh;
+    }
 }
