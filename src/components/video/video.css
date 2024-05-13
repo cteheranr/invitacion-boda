@@ -1,5 +1,5 @@
 .zona-video {
-    min-height: max-content;
+    /* min-height: max-content; */
     background-color: antiquewhite;
     display: flex;
     align-items: center;
