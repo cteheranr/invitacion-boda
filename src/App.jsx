@@ -8,6 +8,7 @@ import Galeria from './components/galeria/Galeria'
 import NuestraBoda from './components/nuestraBoda/NuestraBoda'
 import Comparte from './components/comparte/Comparte'
 import Confirma from './components/confirma/Confirma'
+import { ModalProvider } from './contexts/ModalContext'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -20,7 +21,9 @@ function App() {
         <img src={photo1} alt="" />
       </div>
       <Inform />
-      <Galeria />
+      <ModalProvider>
+        <Galeria />
+      </ModalProvider>
       <NuestraBoda />
       <Comparte />
       <Confirma />
