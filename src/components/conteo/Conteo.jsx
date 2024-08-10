@@ -4,7 +4,7 @@ import circuloFlorez from '../../assets/Recurso1.png'
 import Countdown from './countdown/Countdown';
 
 function Conteo() {
-    const targetDate = '2024-10-19 16:59:59';
+    const targetDate = '2024-10-19 15:59:59';
     return (
         <>
             <div className='mens-cont'>

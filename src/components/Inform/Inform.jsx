@@ -18,7 +18,7 @@ function Inform() {
                         <p>Blas de Lezo Mz 25 Lt 22 Etapa 4</p>
                         <p>Cartagena - Colombia</p>
                     </div>
-                    <h4>5:00 PM</h4>
+                    <h4>4:00 PM</h4>
                     <a href="https://maps.app.goo.gl/q9Fy3fuyTopkibBt6" target='_blank'>
                         <button>CÓMO LLEGAR</button>
                     </a>
@@ -32,7 +32,7 @@ function Inform() {
                         <p>Salon Inolvidables Eventos</p>
                         <p>Cartagena - Colombia</p>
                     </div>
-                    <h4>7:00 PM</h4>
+                    <h4>6:00 PM</h4>
                     <a href="https://maps.app.goo.gl/NFVRAjE9uKaL7XS76" target="_blank">
                         <button>CÓMO LLEGAR</button>
                     </a>
