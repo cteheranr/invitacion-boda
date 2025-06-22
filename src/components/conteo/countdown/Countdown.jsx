@@ -17,6 +17,9 @@ function Countdown({ targetDate }) {
 
   function getTimeRemaining() {
     const now = moment();
+    if(now > targetDate){
+      now = targetDate;
+    }
     const futureDate = moment(targetDate);
     const duration = moment.duration(futureDate.diff(now));
     
